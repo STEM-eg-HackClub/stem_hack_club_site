@@ -1,0 +1,48 @@
+{
+  "Nav": [
+    { "href": "/", "title": "Home" },
+    { "href": "/Why-Us", "title": "Why Us" },
+    { "href": "/Meet-Us", "title": "Meet Us" },
+    { "href": "/Projects", "title": "Projects" },
+    { "href": "/donation", "title": "Donation" },
+    {
+      "href": "/Competitive-Programming",
+      "title": "Competitive Programming"
+    },
+    { "href": "https://eycc.stemeghackclub.org/", "title": "EYCC" }
+  ],
+  "challenges": [
+    {
+      "href": "/Hackathons",
+      "title": "Hackathons",
+      "description": "Hackathons are a great way to learn new skills, meet new people, and have fun whil"
+    },
+    {
+      "href": "https://eycc.stemeghackclub.org/",
+      "title": "EYCC",
+      "description": " Egyptian Youth Cybersecurity Challenge"
+    }
+  ],
+  "Tracks": [
+    {
+      "href": "/tracks/Competitive-Programming",
+      "title": "Competitive Programming",
+      "Description": "Code fast, debug faster—where brainpower meets the ultimate algorithmic showdown!"
+    },
+    {
+      "title": "Game Development",
+      "href": "/tracks/Game-Development",
+      "description": "From pixels to playtime—turn your wildest ideas into addictive games!"
+    },
+    {
+      "title": "App Development ",
+      "href": "/tracks/App-Development",
+      "description": "Build apps, change lives—because the world needs your next big idea!"
+    },
+    {
+      "title": "Cyber Security ",
+      "href": "/tracks/cyber-security",
+      "description": "Hack the hackers (legally, of course) and keep the digital world one step safer!"
+    }
+  ]
+}
