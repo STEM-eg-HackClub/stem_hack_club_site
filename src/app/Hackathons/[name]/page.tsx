@@ -14,34 +14,34 @@ import Sponsors from "@/components/HackaThons/Sponsors";
 import Projects from "@/components/HackaThons/Projects";
 export default function page() {
   const params = useParams();
-  const book = Hackathons.find((b) => b.name.toString() === params.name);
+  const item = Hackathons.find((b) => b.name.toString() === params.name);
 
-  if (!book) return notfound();
+  if (!item) return notfound();
   return ( 
     <section>
       <Background
-        desc={book.Hero.desc}
-        title={book.Hero.title}
-        src={book.Hero.src}
+        desc={item.Hero.desc}
+        title={item.Hero.title}
+        src={item.Hero.src}
       />
 
       <div className="px-5 lg:px-10 2xl:px-20 my-16">
-        <Impact />
+        <Impact Impact={item.impact} />
         <Content
-          title={book.Content.title}
-          Link={book.Content.Link}
-          desc_1={book.Content.Desc_1}
-          desc_2={book.Content.Desc_2}
-          desc_3={book.Content.Desc_3}
-          desc_4={book.Content.Desc_4}
-          image={book.Content.Image}
+          title={item.Content.title}
+          Link={item.Content.Link}
+          desc_1={item.Content.Desc_1}
+          desc_2={item.Content.Desc_2}
+          desc_3={item.Content.Desc_3}
+          desc_4={item.Content.Desc_4}
+          image={item.Content.Image}
         />
-        <Participant Items={book.Participant}/>
-        <Timeline card={book.timeline}/>
-        <Highlights  Highlights={book.Highlights}/> 
-        <Prizes Prizes={book.Prizes} />
-        <Projects podium={book.podium} projectLinks={book.projectsLink}/>
-        <Sponsors sponsors={book.Sponsors}/>
+        <Participant Items={item.Participant}/>
+        <Timeline card={item.timeline}/>
+        <Highlights  Highlights={item.Highlights}/> 
+        <Prizes Prizes={item.Prizes} />
+        <Projects podium={item.podium} projectLinks={item.projectsLink}/>
+        <Sponsors sponsors={item.Sponsors}/>
       </div>
     </section>
   );

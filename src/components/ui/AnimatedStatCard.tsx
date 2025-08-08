@@ -1,5 +1,5 @@
 "use client";
-import React, { JSX, useEffect, useRef } from "react";
+import React, {  useEffect, useRef } from "react";
 import {
   motion,
   useMotionValue,
@@ -7,14 +7,15 @@ import {
   useTransform,
   useInView,
 } from "framer-motion";
+import { IconType } from "react-icons/lib";
 
 interface Props {
   title: string;
   value: number;
-  icon: JSX.Element;
+  Icon:IconType ;
 }
 
-const AnimatedStatCard: React.FC<Props> = ({ title, value, icon }) => {
+const AnimatedStatCard: React.FC<Props> = ({ title, value, Icon }) => {
   const count = useMotionValue(0);
   const spring = useSpring(count, { stiffness: 80, damping: 20 });
   const rounded = useTransform(spring, (latest) => Math.floor(latest));
@@ -38,7 +39,9 @@ const AnimatedStatCard: React.FC<Props> = ({ title, value, icon }) => {
       whileHover={{ scale: 1.05}}
       className="flex md:flex-col items-center  justify-center gap-16 md:gap-2 bg-neutral-200 dark:bg-neutral-950 p-4 rounded-xl shadow-2xl w-full  md:w-48  my-5 "
     >
-      <div className=" text-5xl text-red-500">{icon}</div>
+      <div className=" text-5xl text-red-500">
+        <Icon  size={30}/>
+      </div>
       <div>
         <div className="flex justify-center items-center text-3xl text-red-500">
           <motion.span className="font-bold">{rounded}</motion.span>+
