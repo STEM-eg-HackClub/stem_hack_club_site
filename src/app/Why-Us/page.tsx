@@ -5,11 +5,11 @@ import Background2 from "@/components/ui/Background2";
 import Content from "@/components/Why-Us-content";
 
 export const metadata: Metadata = {
-  title: "About | Stem Hack Club",
+  title: "About | Hack Club Of STEM Egypt",
   description:
-    "Learn more about Stem Hack Club — a student-led community in Egypt where passionate high schoolers explore STEM, code together, and build innovative projects.",
+    "Learn more about Hack Club Of STEM Egypt — a student-led community in Egypt where passionate high schoolers explore STEM, code together, and build innovative projects.",
   keywords: [
-    "About Stem Hack Club",
+    "About Hack Club Of STEM Egypt",
     "STEM students Egypt",
     "Student coding community",
     "Hack Club Egypt",
@@ -18,23 +18,12 @@ export const metadata: Metadata = {
     "Student programmers",
   ],
   openGraph: {
-    title: "Why | Stem Hack Club",
+    title: "Why | Hack Club Of STEM Egypt",
     description:
-      "Get to know the mission behind Stem Hack Club — a tech-driven space for students in Egypt to grow their STEM skills, build projects, and collaborate.",
+      "Get to know the mission behind Hack Club Of STEM Egypt — a tech-driven space for students in Egypt to grow their STEM skills, build projects, and collaborate.",
     url: "https://stemegypt.hackclub.com/Why-Us",
-    siteName: "Stem Hack Club",
-    images: [
-      {
-        url: "https://stemegypt.hackclub.com/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Stem Hack Club About Banner",
-      },
-    ],
+    siteName: " STEM Egypt Hack Club",
     type: "website",
-  },
-  alternates: {
-    canonical: "https://stemegypt.hackclub.com/Why-Us",
   },
 };
 

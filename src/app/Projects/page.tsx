@@ -5,37 +5,27 @@ import Card from "@/components/Projects-content";
 import Background from "@/components/ui/Background";
 
 export const metadata: Metadata = {
-  title: "Projects | Stem Hack Club",
+  title: "Projects | Hack Club Of STEM Egypt",
   description:
-    "Explore student-built projects from Stem Hack Club — creative tech, coding, and STEM innovations made by young developers in Egypt.",
+    "Explore student-built projects from Hack Club Of STEM Egypt — creative tech, coding, and STEM innovations made by young developers in Egypt.",
   keywords: [
     "STEM projects",
     "Student coding projects",
     "Hack Club projects",
-    "Stem Hack Club creations",
+    "Hack Club Of STEM Egypt creations",
     "Programming projects by students",
     "Tech projects Egypt",
     "Showcase student work",
     "Student innovation",
   ],
   openGraph: {
-    title: "Projects | Stem Hack Club",
+    title: "Projects | Hack Club Of STEM Egypt",
     description:
-      "Browse creative coding and STEM projects built by students in the Stem Hack Club. See what young minds are building!",
-    url: "https://stemegypt.hackclub.com/Projects",
-    siteName: "Stem Hack Club",
-    images: [
-      {
-        url: "https://stemegypt.hackclub.com/og-image.png", 
-        width: 1200,
-        height: 630,
-        alt: "Student Projects Showcase Banner",
-      },
-    ],
+      "Browse creative coding and STEM projects built by students in the Hack Club Of STEM Egypt. See what young minds are building!",
+
+    siteName: " STEM Egypt Hack Club",
+
     type: "website",
-  },
-  alternates: {
-    canonical: "https://stemegypt.hackclub.com/Projects",
   },
 };
 

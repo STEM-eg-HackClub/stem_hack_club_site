@@ -3,9 +3,9 @@ import TeenHackCompetition from "@/components/TeenHackCompetition";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Teen Hack Competition | Stem Hack Club",
+  title: "Teen Hack Competition | Hack Club Of STEM Egypt",
   description:
-    "Join the Teen Hack Competition by Stem Hack Club — a student-driven coding challenge in Egypt designed to spark creativity, collaboration, and innovation among teens passionate about technology.",
+    "Join the Teen Hack Competition by Hack Club Of STEM Egypt — a student-driven coding challenge in Egypt designed to spark creativity, collaboration, and innovation among teens passionate about technology.",
   keywords: [
     "Teen Hack Competition",
     "Hackathon Egypt",
@@ -14,26 +14,16 @@ export const metadata: Metadata = {
     "Hack Club Egypt",
     "Teen programmers",
     "Tech event for students",
-    "Stem Hack Club competition",
+    "Hack Club Of STEM Egypt competition",
   ],
   openGraph: {
-    title: "Teen Hack Competition | Stem Hack Club",
+    title: "Teen Hack Competition | Hack Club Of STEM Egypt",
     description:
       "A thrilling hackathon for teenagers in Egypt! Compete, learn, and build cool projects with fellow student coders.",
     url: "https://stemegypt.hackclub.com/Teen-hack-competition",
-    siteName: "Stem Hack Club",
-    images: [
-      {
-        url: "https://stemegypt.hackclub.com/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Teen Hack Competition Banner",
-      },
-    ],
+    siteName: " STEM Egypt Hack Club",
+
     type: "website",
-  },
-  alternates: {
-    canonical: "https://stemegypt.hackclub.com/Teen-hack-competition",
   },
 };
 
@@ -49,8 +39,7 @@ export default function Page() {
         third="Competitive"
         fourth="Challenge"
       />
-      <TeenHackCompetition/>
-       
+      <TeenHackCompetition />
     </>
   );
 }

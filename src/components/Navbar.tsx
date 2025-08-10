@@ -19,7 +19,6 @@ import {
   NavigationMenu,
   NavigationMenuContent,
   NavigationMenuItem,
-  NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
@@ -174,8 +173,8 @@ const Navbar = () => {
           className={`
             p-3 border rounded-2xl active:scale-90 hover:bg-transparent duration-200 -ml-5 -mr-3
             ${
-              hasScrolled ?
-                  "text-white bg-red-600 hover:text-red-600 hover:border-red-600"
+              hasScrolled
+                ? "text-white bg-red-600 hover:text-red-600 hover:border-red-600"
                 : "text-red-600 bg-white  hover:text-white  border-white"
             }
             `}
@@ -244,7 +243,7 @@ const Navbar = () => {
         </div>
         <div className="flex flex-col gap-5 justify-center items-center">
           {[
-            { title: "Stem Hack Club", data: NLink.Nav },
+            { title: "Stem Hack Club", data: NLink.Nav.slice(0, 5) },
             // { title: "Tracks", data: NLink.Tracks },
             { title: "Event & Competitions", data: NLink.challenges },
           ].map((section, i) => (

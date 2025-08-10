@@ -7,9 +7,9 @@ import { IoMdDoneAll } from "react-icons/io";
 
 const Impact = () => {
   const Statistics = [
-    { icon: <PiStudentFill />, title: "Students Reached", value: 1500 },
-    { icon: <GoProjectRoadmap />, title: "Students Projects", value: 235 },
-    { icon: <IoMdDoneAll />, title: "Sessions Delivered", value: 380 },
+    { icon: PiStudentFill, title: "Students Reached", value: 1500 },
+    { icon: GoProjectRoadmap, title: "Students Projects", value: 235 },
+    { icon: IoMdDoneAll, title: "Sessions Delivered", value: 380 },
   ];
   return (
     <section className="py-10 md:flex justify-center items-center gap-10 ">
@@ -17,7 +17,7 @@ const Impact = () => {
         <AnimatedStatCard
           key={i}
           title={item.title}
-          icon={item.icon}
+          Icon={item.icon}
           value={item.value}
         />
       ))}
