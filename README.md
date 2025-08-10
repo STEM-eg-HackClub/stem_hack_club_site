@@ -7,7 +7,7 @@ And hey… if you like what you see, don’t forget to ⭐ star the repo — it 
 
 ## ⚙ Tools And Dependencies
 - Shadcn Ui
-- Aos  Animate on scroll library (i will replace it with Framer-Motion )
+- Aos  Animate on scroll library (i will replace it with Framer-Motion ) 
 
 ## 🚀 Features   
 - Basic front-end design  
