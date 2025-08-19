@@ -6,7 +6,7 @@ Explore projects, meet our amazing mentors, and dive into the techy goodness —
 And hey… if you like what you see, don’t forget to ⭐ star the repo — it means a lot! ❤️
 
 ## ⚙ Tools And Dependencies
-- Shadcn Ui
+- Shadcn Ui 
 - Aos  Animate on scroll library (i will replace it with Framer-Motion ) 
 
 ## 🚀 Features   
