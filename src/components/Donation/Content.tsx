@@ -21,7 +21,7 @@ const DonationContent = () => {
           className="mb-2"
         >
           {" "}
-          Hack Club of STEM Egypt
+          Hack Club of <span className="mark"> STEM Egypt </span>
         </motion.h1>
 
         <motion.p
@@ -55,7 +55,7 @@ const DonationContent = () => {
             transition={{ duration: 0.5 }}
             className="mb-5"
           >
-            Why Donate?
+            Why <span className="mark"> Donate </span>?
           </motion.h1>
           <motion.p
             viewport={{

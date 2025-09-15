@@ -45,7 +45,7 @@ export default function page() {
             transition={{ duration: 0.3 }}
             className="mb-4"
           >
-            What's a Hackathon
+            What's a <span className="mark"> Hackathon </span> ?
           </motion.h1>
           <motion.p
             viewport={{

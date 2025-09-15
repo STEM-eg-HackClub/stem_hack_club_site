@@ -37,7 +37,7 @@ export default function Home() {
       <Background
         src="/images/Home_page.jpg"
         title="  Hack Club of STEM Egypt"
-        desc="HCSE"
+        desc="HCSE — a dynamic community of students, coding, and building cool tech projects together"
       />
       <section className="overflow-hidden select-text cursor-default  px-5 lg:px-20 py-20 h-fit flex flex-col gap-20 justify-evenly">
         <HomeContent />

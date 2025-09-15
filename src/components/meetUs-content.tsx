@@ -50,17 +50,19 @@ const MeetUsContent = () => {
               opacity: 1,
             }}
             whileHover={{
-              scale: 1.2,
+              scale: 1.03,
               fontSize: "20px",
             }}
             whileTap={{
-              scale:0.8,
-              transition:{duration:0.1}
+              scale: 0.94,
+              transition: { duration: 0.1 },
             }}
             transition={{ duration: 0.2 }}
             key={year}
             onClick={() => handleYearChange(year)}
-            className="p-4 border border-red-500   hover:text-white hover:bg-red-600    rounded-2xl"
+            className={`p-4 border border-red-500   hover:text-white hover:bg-red-600 rounded-2xl ${
+              selectedYear === year && "bg-red-600 text-white"
+            } `}
           >
             {year}
           </motion.button>
@@ -87,8 +89,7 @@ const MeetUsContent = () => {
                   y: 0,
                   opacity: 1,
                 }}
-              
-                transition={{ duration: 0.4 ,type:"spring",stiffness:100 }}
+                transition={{ duration: 0.4, type: "spring", stiffness: 100 }}
                 key={index}
                 className="group  relative overflow-hidden h-fit w-fit flex flex-col justify-end items-center rounded-xl"
               >
@@ -114,7 +115,7 @@ const MeetUsContent = () => {
                       href={member.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-white group-hover:translate-x-0 group-hover:scale-100 scale-0 translate-x-12 duration-200"
+                      className="text-white hover:text-red-700 group-hover:translate-x-0 group-hover:scale-100 scale-0 translate-x-12 duration-200"
                     >
                       <FaGithub size={30} />
                     </a>
@@ -124,7 +125,7 @@ const MeetUsContent = () => {
                       href={member.facebook}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-white group-hover:translate-x-0 group-hover:scale-100 scale-0 -translate-x-12 duration-200"
+                      className="text-white hover:text-red-700 group-hover:translate-x-0 group-hover:scale-100 scale-0 -translate-x-12 duration-200"
                     >
                       <FaFacebook size={30} />
                     </a>
@@ -132,7 +133,7 @@ const MeetUsContent = () => {
                   {member.email && (
                     <a
                       href={`mailto:${member.email}`}
-                      className="text-white group-hover:translate-x-0 group-hover:scale-100 scale-0 translate-x-12 duration-200"
+                      className="text-white hover:text-red-700 group-hover:translate-x-0 group-hover:scale-100 scale-0 translate-x-12 duration-200"
                     >
                       <FaEnvelope size={30} />
                     </a>
@@ -142,7 +143,7 @@ const MeetUsContent = () => {
                       href={member.linkedin}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-white group-hover:translate-x-0 group-hover:scale-100 scale-0 -translate-x-12 duration-200"
+                      className="text-white hover:text-red-700 group-hover:translate-x-0 group-hover:scale-100 scale-0 -translate-x-12 duration-200"
                     >
                       <FaLinkedin size={30} />
                     </a>

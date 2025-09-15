@@ -25,7 +25,7 @@ const HomeMemberPic = () => {
           transition={{ duration: 0.5 }}
           className="mb-5"
         >
-          Our Community
+          Our <span className="mark"> Community </span>
         </motion.h1>
         <motion.p
           viewport={{

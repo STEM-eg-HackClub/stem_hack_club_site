@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import projectsData from "@/Data/Projects.json";
 import { motion } from "framer-motion";
@@ -8,26 +8,24 @@ const bgProjects = () => {
     <div className=" py-20 px-10 lg:px-20 h-fit w-full flex flex-wrap justify-center items-center gap-x-5 gap-y-10">
       {projectsData.map((project, index) => (
         <motion.a
-        viewport={{
-            once:true,
-            amount:0.5,
-          }} 
+          viewport={{
+            once: true,
+            amount: 0.5,
+          }}
           initial={{
-            scale:0,
-            opacity:0
+            opacity: 0,
           }}
           whileInView={{
-            scale:1,
-            opacity:1
+            opacity: 1,
           }}
           whileHover={{
-           y:-20
+            y: -10,
           }}
           whileTap={{
-            scale:0.9,
-          transition:{duration:0.1}
+            scale: 0.9,
+            transition: { duration: 0.1 },
           }}
-          transition={{duration:0.3 , type:"spring" , stiffness:100 }}
+          transition={{ duration: 0.3 }}
           key={index}
           href={project.link}
           target="_blank"

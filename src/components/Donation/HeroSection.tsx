@@ -12,7 +12,7 @@ const HeroSection = () => {
         className="relative rounded-2xl    shadow-2xl p-7 w-full max-w-3xl overflow-hidden"
       >
         <div className="absolute top-0 left-0 w-full h-full bg-white bg-opacity-25 blur-3xl  -z-10" />
-        <h1 className="text-white dark:text-white mb-2">Donate Us </h1>
+        <h1 className="text-white dark:text-white mb-2"><span className="mark !font-semibold"> Donate </span> Us </h1>
         <p className="ml-4 mb-5  text-neutral-200 dark:text-neutral-200">
           STEM Egypt Hack Club is a youth-led initiative uniting passionate
           teens from across Egypt to learn, build, and create with technology.

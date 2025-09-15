@@ -16,7 +16,7 @@ const Homehackthon = () => {
           transition={{ duration: 0.5 }}
           className="mb-3"
         >
-          Hackathons
+         HCSE <span className="mark"> Hackathons </span>
         </motion.h1>
         <motion.p
           viewport={{

@@ -44,7 +44,7 @@ const Supporters = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        Supporters & Partners  
+        Supporters & <span className="mark"> Partners </span>
       </motion.h1>
       <motion.p
         viewport={{
@@ -66,10 +66,7 @@ const Supporters = () => {
         transition={{ duration: 0.6 }}
       >
         <Swiper
-          modules={[Autoplay]}
           spaceBetween={10}
-          loop={true}
-          autoplay={{ delay: 3000 }}
           className="rounded-xl h-[400px] overflow-hidden cursor-grab active:cursor-grabbing select-none bg-r ed-700 "
           breakpoints={{
             0: { slidesPerView: 1 },

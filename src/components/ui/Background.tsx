@@ -33,7 +33,7 @@ const Background: React.FC<Background> = ({ src, title ,desc }) => {
         initial={{ y: 50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 0.8 }}
         transition={{ duration: 0.5, type: "spring", stiffness: 250 ,delay:0.3}}
-        className="text-neutral-300 text-center dark:text-neutral-300 opacity-70 text-xl mt-2  z-10"
+        className="text-neutral-300 text-center dark:text-neutral-300 opacity-70 text-lg mt-2  z-10"
       >
         {desc}
       </motion.h1>

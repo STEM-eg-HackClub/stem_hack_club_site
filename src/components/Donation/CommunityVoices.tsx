@@ -15,7 +15,8 @@ const CommunityVoices = () => {
           transition={{ duration: 0.5 }}
           className="flex flex-wrap items-center justify-center gap-2  my-10 "
         >
-          Voices From Our Community <FaRegHeart className="text-red-600" />
+          Voices From Our <span className="mark"> Community </span>{" "}
+          <FaRegHeart className="text-red-600" />
         </motion.h1>
       </div>
       <div className="grid grid-cols-1  2xl:grid-cols-2 gap-y-5 gap-x-10 mx-auto w-fit ">

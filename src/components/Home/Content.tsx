@@ -5,7 +5,9 @@ import { motion } from "framer-motion";
 import { FaHandshake } from "react-icons/fa";
 import { IoSpeedometerOutline } from "react-icons/io5";
 import { BiBookBookmark } from "react-icons/bi";
+import Image from "next/image";
 
+const MotionImage = motion.create(Image);
 const QA = () => {
   const GoalsList = [
     {
@@ -38,7 +40,7 @@ const QA = () => {
           transition={{ duration: 0.5 }}
           className="mb-10"
         >
-          Our Club Goals
+          Our Club <span className="mark">Goals</span>
         </motion.h1>
         <div className="flex flex-col gap-5 lg:gap-10 md:flex-row flex-wrap justify-evenly items-center  ">
           {GoalsList.map((List, index) => (
@@ -55,7 +57,7 @@ const QA = () => {
             >
               {React.createElement(List.Icon, {
                 size: 50,
-                className: "text-black dark:text-white",
+                className: "text-red-600",
               })}
               <p className="text-sm text-center">{List.p}</p>
             </motion.div>
@@ -65,20 +67,50 @@ const QA = () => {
 
       {/* questions */}
 
-      <div className=" ">
-        <motion.h1
-          viewport={{
-            once: true,
-            amount: 0.5,
-          }}
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="mb-3   w-fit"
-        >
-          What's a Hacker?
-        </motion.h1>
-        <motion.p
+      <section className="flex flex-col-reverse lg:flex-row justify-between items-center gap-10 ">
+        <div>
+          <motion.h1
+            viewport={{
+              once: true,
+              amount: 0.5,
+            }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="mb-3   w-fit"
+          >
+            What's a <span className="mark"> Hacker </span>?
+          </motion.h1>
+          <motion.p
+            viewport={{
+              once: true,
+              amount: 0.5,
+            }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="pl-5"
+          >
+            A hacker is not always someone who trespasses on banks or plunders a
+            friend's V-Bucks. Hackers are individuals who identify problems that
+            need to be solved and devise the most practical-efficient solutions.
+            These issues frequently call for an inventive mentality,
+            technological know-how, and exposure to new ideas. Many can be
+            solved with computers or clever engineering. At STEM Egypt Hack
+            Club, we want our hackers to be creative problem solvers who are
+            also proficient in coding, engineering, and problem-solving.
+            <br /> <br />
+            Coding and computer science not only apply to specific problems - it
+            fundamentally teaches how to solve complex problems using
+            step-by-step logic. Coding teaches you how to dissect the issues and
+            find solutions, so knowing it is valuable regardless of the job you
+            end up choosing. STEM Egypt Hack Club cards are mainly focused on
+            coding and engineering, including building unique-new software
+            projects, protecting the community's network, conducting research
+            projects and articles and much more!
+          </motion.p>
+        </div>
+        <MotionImage
           viewport={{
             once: true,
             amount: 0.5,
@@ -86,41 +118,15 @@ const QA = () => {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="pl-5"
-        >
-          A hacker is not always someone who trespasses on banks or plunders a
-          friend's V-Bucks. Hackers are individuals who identify problems that
-          need to be solved and devise the most practical-efficient solutions.
-          These issues frequently call for an inventive mentality, technological
-          know-how, and exposure to new ideas. Many can be solved with computers
-          or clever engineering. At STEM Egypt Hack Club, we want our hackers to
-          be creative problem solvers who are also proficient in coding,
-          engineering, and problem-solving.
-          <br /> <br />
-          Coding and computer science not only apply to specific problems - it
-          fundamentally teaches how to solve complex problems using step-by-step
-          logic. Coding teaches you how to dissect the issues and find
-          solutions, so knowing it is valuable regardless of the job you end up
-          choosing. STEM Egypt Hack Club cards are mainly focused on coding and
-          engineering, including building unique-new software projects,
-          protecting the community's network, conducting research projects and
-          articles and much more!
-        </motion.p>
-      </div>
-      <div className=" ">
-        <motion.h1
-          viewport={{
-            once: true,
-            amount: 0.5,
-          }}
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="mb-3   w-fit"
-        >
-          What is Hack Club?
-        </motion.h1>
-        <motion.p
+          src="/Mohammad Yasser.jpg"
+          alt="Mohammad Image"
+          width={500}
+          height={500}
+          className="w-full lg:w-2/5  h-96 lg:h-[500px] object-cover rounded-2xl"
+        />
+      </section>
+      <section className="flex flex-col lg:flex-row justify-between items-center gap-10 ">
+        <MotionImage
           viewport={{
             once: true,
             amount: 0.5,
@@ -128,53 +134,101 @@ const QA = () => {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="pl-5"
-        >
-          We have an official affiliation with the student organization
-          <a className="mx-1" href="https://hackclub.com" id="hackclub" target="_blank">
-            Hack Club
-          </a>
-          , which brings together like-minded makers, coders, and hackers on the
-          <a className="mx-1" href="https://hackclub.com/slack/" target="_blank">
-            Slack
-          </a>
-          platform. Numerous unique chances are provided by Hack Club, including
-          <a className="mx-1" href="https://hackclub.com/amas/" target="_blank">
-            AMAs
-          </a>
-          with well-known figures in the tech space, including
-          <a className="mx-1"
-            href="https://www.forbes.com/profile/elon-musk/?sh=eddbb347999b"
-            target="_blank"
+          src="/KEP_1777.jpg"
+          alt="Mohammad Image"
+          width={1000}
+          height={1000}
+          className="w-full lg:w-2/4 object-cover h-60 lg:h-[500px] rounded-2xl"
+        />
+        <div>
+          <motion.h1
+            viewport={{
+              once: true,
+              amount: 0.5,
+            }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="mb-3   w-fit"
           >
-            Elon Musk
-          </a>
-          ,
-          <a className="mx-1"
-            href="https://www.forbes.com/profile/gwynne-shotwell/"
-            target="_blank"
+            What is <span className="mark"> Hack Club </span>?
+          </motion.h1>
+          <motion.p
+            viewport={{
+              once: true,
+              amount: 0.5,
+            }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="pl-5"
           >
-            Gwen Shotwell
-          </a>
-          ,
-          <a className="mx-1"
-            href="https://www.forbes.com/profile/patrick-collison/?sh=42ce855f2727"
-            target="_blank"
-          >
-            Patrick Collison
-          </a>
-          , and
-          <a className="mx-1" href="https://www.youtube.com/watch?v=icyTUMjlvMg" target="_blank">
-            Tommy Devoss
-          </a>
-          . Additionally, Hack Club hosts international coding competitions
-          <i> ( in-person and online ) </i>
-          that are a fantastic opportunity for students to bond and learn what
-          it's like to hack in a group setting.
-        </motion.p>
-      </div>
-
-     
+            We have an official affiliation with the student organization
+            <a
+              className="mx-1 mark"
+              href="https://hackclub.com"
+              id="hackclub"
+              target="_blank"
+            >
+              Hack Club
+            </a>
+            , which brings together like-minded makers, coders, and hackers on
+            the
+            <a
+              className="mx-1 mark"
+              href="https://hackclub.com/slack/"
+              target="_blank"
+            >
+              Slack
+            </a>
+            platform. Numerous unique chances are provided by Hack Club,
+            including
+            <a
+              className="mx-1 mark"
+              href="https://hackclub.com/amas/"
+              target="_blank"
+            >
+              AMAs
+            </a>
+            with well-known figures in the tech space, including
+            <a
+              className="mx-1 mark"
+              href="https://www.forbes.com/profile/elon-musk/?sh=eddbb347999b"
+              target="_blank"
+            >
+              Elon Musk
+            </a>
+            ,
+            <a
+              className="mx-1 mark"
+              href="https://www.forbes.com/profile/gwynne-shotwell/"
+              target="_blank"
+            >
+              Gwen Shotwell
+            </a>
+            ,
+            <a
+              className="mx-1 mark"
+              href="https://www.forbes.com/profile/patrick-collison/?sh=42ce855f2727"
+              target="_blank"
+            >
+              Patrick Collison
+            </a>
+            , and
+            <a
+              className="mx-1 mark"
+              href="https://www.youtube.com/watch?v=icyTUMjlvMg"
+              target="_blank"
+            >
+              Tommy Devoss
+            </a>
+            . Additionally, Hack Club hosts international coding competitions
+            <i> ( in-person and online ) </i>
+            that are a fantastic opportunity for students to bond and learn what
+            it's like to hack in a group setting.
+          </motion.p>
+        </div>
+      </section>
     </section>
   );
 };
