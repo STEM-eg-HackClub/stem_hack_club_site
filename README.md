@@ -1,7 +1,7 @@
  # **Stem Hack Club**
 Welcome to the STEM Hack Club website!
 Built with Next.js and styled using Tailwind CSS, this site is designed to be fast, clean, and responsive.
-Explore projects, meet our amazing mentors, and dive into the techy goodness — hope you enjoy your visit!
+Explore projects, meet our amazing mentors, and dive into the techy goodness — hope you enjoy your visit! 
 
 And hey… if you like what you see, don’t forget to ⭐ star the repo — it means a lot! ❤️
 
