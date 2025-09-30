@@ -30,6 +30,7 @@ import Background from "@/components/ui/Background";
 import HomeContent from "@/components/Home/Content";
 import HomeMemberPic from "@/components/Home/MemberPic";
 import Homehackthon from "@/components/Home/Hackathons";
+import Games from "@/components/Home/Games";
 
 export default function Home() {
   return (
@@ -43,6 +44,7 @@ export default function Home() {
         <HomeContent />
         <HomeMemberPic />
         <Homehackthon />
+        <Games />
       </section>
     </section>
   );

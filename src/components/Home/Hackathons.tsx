@@ -44,7 +44,7 @@ const Homehackthon = () => {
         initial={{ opacity: 0, y: 60 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className=" select-none rounded-xl w-full md:w-2/4 max-w-lg overflow-hidden"
+        className=" select-none rounded-xl w-full md:w-2/4 overflow-hidden"
       >
         <Image
           className="w-full h-full "

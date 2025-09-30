@@ -18,10 +18,10 @@ const Button: React.FC<props> = ({ href, title }) => {
         initial={{ scale: 0, opacity: 0 }}
         whileInView={{ scale: 1, opacity: 1 }}
         whileHover={{
-          scale: 1.1,
+          scale: 1.05,
         }}
         whileTap={{
-          scale: 0.9,
+          scale: 0.98,
         }}
         transition={{ duration: 0.2 }}
         className=" border border-red-600 hover:bg-red-600 hover:text-white text-red-600 font-bold  p-4 my-3 rounded-xl"

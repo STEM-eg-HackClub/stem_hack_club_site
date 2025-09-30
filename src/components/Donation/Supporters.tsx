@@ -86,7 +86,7 @@ const Supporters = () => {
                   alt={company.title}
                   width={200}
                   height={200}
-                  className=" max-w-40 w-fit h-32 rounded-2xl object-cover"
+                  className=" max-w-40 w-fit h-32 rounded-2xl object-cover bg-black"
                 />
                 <h2 className=" text-xl lg:text-2xl cursor-grab active:cursor-grabbing">
                   {company.title}

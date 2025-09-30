@@ -14,7 +14,7 @@ const HomeMemberPic = () => {
   return (
     <div className="w-full flex flex-col lg:flex-row  gap-5 justify-between  items-center select-text ">
       {/* left side */}
-      <div className="w-full lg:w-2/5  ">
+      <div className="w-full lg:w-2/4  ">
         <motion.h1
           viewport={{
             once: true,
@@ -50,7 +50,7 @@ const HomeMemberPic = () => {
 
       {/* right side */}
       <motion.div
-        className="w-full lg:w-2/4 max-w-96  md:max-w-2xl bg-transparent "
+        className="w-full lg:w-2/4 md:max-w-2xl bg-transparent "
         viewport={{
           once: true,
           amount: 0.5,
@@ -68,14 +68,14 @@ const HomeMemberPic = () => {
               >
                 <div className=" p-1">
                   <Card className="border-white overflow-hidden">
-                    <CardContent className=" flex  items-center justify-center  p-0 ">
+                    <CardContent className=" flex  items-center justify-center p-0 2xl:h-96 2xl:w-60">
                       <Image
                         src={`${Pictures.src}`}
                         alt={`${Pictures.alt}`}
                         width={1000}
                         height={1000}
                         quality={100}
-                        className="object-cover  h-full w-full"
+                        className="object-cover h-full w-full "
                       />
                     </CardContent>
                   </Card>

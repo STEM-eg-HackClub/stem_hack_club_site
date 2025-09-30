@@ -67,8 +67,8 @@ const QA = () => {
 
       {/* questions */}
 
-      <section className="flex flex-col-reverse lg:flex-row justify-between items-center gap-10 ">
-        <div>
+      <section className="flex flex-col-reverse lg:flex-row justify-between items-center gap-5 ">
+        <div className="w-full lg:w-2/4">
           <motion.h1
             viewport={{
               once: true,
@@ -138,9 +138,9 @@ const QA = () => {
           alt="Mohammad Image"
           width={1000}
           height={1000}
-          className="w-full lg:w-2/4 object-cover h-60 lg:h-[500px] rounded-2xl"
+          className="w-full lg:w-2/4 object-cover h-60 lg:h-[400px] rounded-2xl"
         />
-        <div>
+        <div className="w-full lg:w-2/4">
           <motion.h1
             viewport={{
               once: true,

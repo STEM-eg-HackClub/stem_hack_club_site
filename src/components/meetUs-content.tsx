@@ -51,10 +51,9 @@ const MeetUsContent = () => {
             }}
             whileHover={{
               scale: 1.03,
-              fontSize: "20px",
             }}
             whileTap={{
-              scale: 0.94,
+              scale: 0.98,
               transition: { duration: 0.1 },
             }}
             transition={{ duration: 0.2 }}

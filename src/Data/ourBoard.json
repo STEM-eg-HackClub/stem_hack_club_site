@@ -50,16 +50,6 @@
     "description": "Web Application Manger"
   },
   {
-    "name": "Seif Adel",
-    "image": "/images/board/Seif Adel.jpg",
-    "github": "",
-    "linkedin": "",
-    "facebook": "",
-    "email": "seifadelgd@gmail.com",
-    "year": "2025",
-    "description": "Cyber Security Mentor"
-  },
-  {
     "name": "Islam Abdelsalam",
     "image": "/images/board/Islam Abdelsalam .jpg",
     "github": "",
@@ -68,6 +58,26 @@
     "email": "seifadelgd@gmail.com",
     "year": "2025",
     "description": "Graphic Designer"
+  },
+  {
+    "name": "Abdallah Ebrahim",
+    "image": "/images/board/Abdallah Ebrahim.jpg",
+    "github": "https://github.com/0xDracula",
+    "linkedin": "",
+    "facebook": "",
+    "email": "abdallah.ebrahim.official@gmail.com",
+    "year": "2025",
+    "description": "Cyber Security Mentor"
+  },
+  {
+    "name": "Seif Adel",
+    "image": "/images/board/Seif Adel.jpg",
+    "github": "",
+    "linkedin": "",
+    "facebook": "",
+    "email": "seifadelgd@gmail.com",
+    "year": "2025",
+    "description": "Cyber Security Mentor"
   },
   {
     "name": "Mohamed Abdelghany ",
@@ -121,17 +131,6 @@
     "year": "2025",
     "description": "App development Mentor"
   },
-  {
-    "name": "Abdallah Ebrahim",
-    "image": "/images/board/Abdallah Ebrahim.jpg",
-    "github": "https://github.com/0xDracula",
-    "linkedin": "",
-    "facebook": "",
-    "email": "abdallah.ebrahim.official@gmail.com",
-    "year": "2025",
-    "description": "Cyber Security Mentor"
-  },
-
   {
     "name": "Ahmed Adel",
     "image": "/images/board/AhmedAdel.jpg",
