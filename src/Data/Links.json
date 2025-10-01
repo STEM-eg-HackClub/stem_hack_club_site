@@ -4,6 +4,7 @@
     { "href": "/Why-Us", "title": "Why Us" },
     { "href": "/Meet-Us", "title": "Meet Us" },
     { "href": "/Projects", "title": "Projects" },
+    { "href": "/Games", "title": "Games" },
     { "href": "/donation", "title": "Donation" },
     {
       "href": "/Competitive-Programming",
@@ -30,7 +31,7 @@
       "Description": "Code fast, debug faster—where brainpower meets the ultimate algorithmic showdown!"
     },
     {
-      "title": "Game Development",
+      "title": "Game Development",
       "href": "/tracks/Game-Development",
       "description": "From pixels to playtime—turn your wildest ideas into addictive games!"
     },
