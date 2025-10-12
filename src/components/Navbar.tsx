@@ -69,8 +69,8 @@ const Navbar = () => {
       </Link>
 
       {/* Desktop/Tablet Nav List */}
-      <div className="hidden lg:flex gap-7 items-center select-none">
-        {NLink.Nav.slice(0, 4).map((link, index) => (
+      <div className="hidden lg:flex gap-5 items-center select-none">
+        {NLink.Nav.slice(0, 5).map((link, index) => (
           <Link
             className={`cursor-pointer dark:text-white hover:translate-y-[-1px] duration-200    
 
@@ -138,7 +138,7 @@ const Navbar = () => {
 
             <NavigationMenuItem>
               <NavigationMenuTrigger
-                className={`bg-transparent   duration-0   ${
+                className={`bg-transparent duration-0 ${
                   hasScrolled
                     ? "text-black dark:text-white hover:text-red-500 dark:hover:text-red-500 "
                     : "text-white "

@@ -47,7 +47,7 @@ const WhyUsContent = () => {
         <MotionImage
           {...ImageAnimate}
           alt="Oragnizers"
-          src="/KEP_1808.jpg"
+          src="/KEP_1808.JPG"
           width={1000}
           height={1000}
           className="h-96 object-cover rounded-2xl w-full lg:w-2/4"
@@ -58,7 +58,7 @@ const WhyUsContent = () => {
         <MotionImage
           {...ImageAnimate}
           alt="Oragnizers"
-          src="/Opening Ceremony 1.png"
+          src="/Summer.jpg"
           width={1000}
           height={1000}
           className="h-96 object-cover rounded-2xl w-full lg:w-2/4"
@@ -100,7 +100,7 @@ const WhyUsContent = () => {
         <MotionImage
           {...ImageAnimate}
           alt="Oragnizers"
-          src="/Hackathons/scrapyard/KEP_1888.jpg"
+          src="/Hackathons/scrapyard/KEP_1888.JPG"
           width={1000}
           height={1000}
           className="h-96 object-cover rounded-2xl w-full lg:w-2/4"
@@ -151,7 +151,7 @@ const WhyUsContent = () => {
         <MotionImage
           {...ImageAnimate}
           alt="Oragnizers"
-          src="/Hackathons/scrapyard/KEP_1929.jpg"
+          src="/Hackathons/scrapyard/KEP_1929.JPG"
           width={1000}
           height={1000}
           className="h-96 object-cover rounded-2xl w-full lg:w-2/4"
