@@ -9,7 +9,7 @@ And hey… if you like what you see, don’t forget to ⭐ star the repo — it 
 - Shadcn Ui 
 - Aos  Animate on scroll library (i will replace it with Framer-Motion ) 
 
-## 🚀 Features   
+## 🚀 Features    
 - Basic front-end design  
 - Simple interactive elements  
 - Fully responsive layout
