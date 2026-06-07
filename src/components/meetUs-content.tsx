@@ -3,12 +3,12 @@ import { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-import { FaGithub, FaFacebook, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaFacebook, FaInstagram, FaLinkedin, FaEnvelope} from "react-icons/fa";
 // data
 import BoardData from "../Data/ourBoard.json";
 
 const MeetUsContent = () => {
-  const [selectedYear, setSelectedYear] = useState("2025");
+  const [selectedYear, setSelectedYear] = useState("2026");
 
   const handleYearChange = (year: string) => {
     setSelectedYear(year);
@@ -36,7 +36,7 @@ const MeetUsContent = () => {
       </motion.h1>
 
       <div className="flex gap-4 mb-4">
-        {["2025", "2024", "2023", "2022"].map((year) => (
+        {["2026", "2025", "2024", "2023", "2022"].map((year) => (
           <motion.button
             viewport={{
               once: true,
@@ -127,6 +127,16 @@ const MeetUsContent = () => {
                       className="text-white hover:text-red-700 group-hover:translate-x-0 group-hover:scale-100 scale-0 -translate-x-12 duration-200"
                     >
                       <FaFacebook size={30} />
+                    </a>
+                  )}
+                  {member.instagram && (
+                    <a
+                      href={member.instagram}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white hover:text-red-700 group-hover:translate-x-0 group-hover:scale-100 scale-0 -translate-x-12 duration-200"
+                    >
+                      <FaInstagram size={30} />
                     </a>
                   )}
                   {member.email && (
