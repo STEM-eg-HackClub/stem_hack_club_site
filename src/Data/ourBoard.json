@@ -1,5 +1,103 @@
 [
   {
+    "name": "Ahmed Helmy",
+    "image": "/images/board/Ahmed Helmy.jpeg",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/ahmed-helmy-306607350/",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/ahmed____helmy/",
+    "email": "ah1811870@gmail.com",
+    "year": "2026",
+    "description": "President and Cyber Security Mentor "
+  },
+  {
+    "name": "Yousef Habib",
+    "image": "/images/board/Yousef Habib.jpeg",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/usef-7abib",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/yousef_7abib8",
+    "email": "yousef7abib2008@gmail.com",
+    "year": "2026",
+    "description": "Vice-President and Cyber Security Mentor"
+  },
+  {
+    "name": "Yassin Emad Eldin Sayed",
+    "image": "/images/board/Yassen Emad.jpeg",
+    "github": "https://github.com/Yassin-Elmahdy123",
+    "linkedin": "",
+    "facebook": "https://www.facebook.com/share/1HwPTNdoNj/",
+    "email": "yassinelmahdy201@gmail.com ",
+    "year": "2026",
+    "description": "Competitive Programming co-head"
+  },
+  {
+    "name": "Mostafa Saied",
+    "image": "/images/board/msa1.jpg",
+    "github": "https://github.com/mostafasaiedgad",
+    "linkedin": "",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/mostafasaiedgad/",
+    "email": "",
+    "year": "2026",
+    "description": "Competitive Programming co-head"
+  },
+  {
+    "name": "Amaar Mostafa",
+    "image": "/images/board/Amaar Mostafa.jpeg",
+    "github": "https://github.com/X-3maar",
+    "linkedin": "",
+    "facebook": "https://www.facebook.com/3maar.1.2",
+    "instagram": "https://www.instagram.com/v_3maar/",
+    "email": "",
+    "year": "2026",
+    "description": "Game Development Head"
+  },
+  {
+    "name": "Daniel George",
+    "image": "/images/board/DG.jpeg",
+    "github": "https://github.com/Daniel-Geo",
+    "linkedin": "",
+    "facebook": "",
+    "email": "danielgeorgewadea@gmail.com",
+    "year": "2026",
+    "description": "Game Development Mentor"
+  },
+
+  {
+    "name": "Mahmoud Reda",
+    "image": "/images/board/Mahmoud Reda.jpeg",
+    "github": "https://github.com/Druck07",
+    "linkedin": "",
+    "facebook": "https://www.facebook.com/share/1NfRnx8Hq8/",
+    "email": "mamo.reda.2024@gmail.com",
+    "year": "2026",
+    "description": "Competitive Programming Mentor"
+  },
+  {
+    "name": "Bishoy Hanna",
+    "image": "/images/board/Bisho-meko.jpeg",
+    "github": "https://github.com/Bisho-Meko",
+    "linkedin": "https://www.linkedin.com/in/bishoy-m-hanna?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "facebook": "",
+    "email": "",
+    "year": "2026",
+    "description": "Competitive Programming Mentor"
+  },
+  {
+    "name": "Abdullah Ahmed",
+    "image": "/images/board/Abdullah Mohamed.jpeg",
+    "github": "",
+    "linkedin": "",
+    "facebook": "https://www.facebook.com/profile.php?id=100070353880436&mibextid=ZbWKwL",
+    "instagram": "https://instagram.com/theycallmeinca_/",
+    "email": "abdoahmedabdelsameea@gmail.com ",
+    "year": "2026",
+    "description": "Competitive Programming Mentor"
+  },
+
+
+  {
     "name": "Mostafa Mohammad",
     "image": "/images/board/Mostafa Mohammad.jpg",
     "github": "https://github.com/TifA12-sta",
